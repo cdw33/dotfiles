@@ -1,0 +1,6 @@
+#!/bin/sh
+#searches Google for the given string
+clear &&
+for i in "$searchString";
+do lynx --accept-all-cookies http://www.google.com/search?q="$searchString";
+done
