@@ -22,7 +22,8 @@ alias tlist='transmission-remote -n chris:wilson -l'
 alias tadd='transmission-remote -n chris:wilson -a'
 
 #configs
-alias=bspwmrc='pico ~/.config/bspwm/bspwmrc'
+alias bspwmrc='pico ~/.config/bspwm/bspwmrc'
+alias sxhkdrc='pico ~/.config/sxhkd/sxhkdrc'
 
 #administration
 alias please='sudo $(history -p !!)'
