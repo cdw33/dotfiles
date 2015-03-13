@@ -8,3 +8,8 @@ alias tadd='transmission-remote -n chris:wilson -a'
 alias filesize='du -sh'
 alias refreshbash='. ~/.bashrc'
 alias hello='echo hello'
+alias untar='tar -zxvf'
+
+
+#configs
+alias=bspwmrc='pico ~/.config/bspwm/bspwmrc'
