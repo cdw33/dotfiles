@@ -1,7 +1,7 @@
 #Bash Aliases
 
 #files
-alias la='la -a'
+alias la='ls -a'
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
