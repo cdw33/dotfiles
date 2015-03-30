@@ -1,3 +1,6 @@
 -If the system has no .bashrc file in the home dir, to refresh bash w/o 
  restarting, copy the default .bashrc file from '/etc/skel/.bashrc' to the
  home dir. Bash can then be restarted using '. .bashrc'.
+
+-when installing bspwm, if make fails with an 'Invalid_Screen' error, 
+ checkout an older version of the repo with 'git checkout b0e8dd3'
