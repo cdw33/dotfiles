@@ -34,8 +34,11 @@ super + y
 super + m
 	bspc window -s biggest
 
-super + {_,shift + }{h,j,k,l}
+super + shift + {h,j,k,l}
 	bspc window -{f,s} {left,down,up,right}
+
+super + {Left, Down, Up, Right}
+	bspc window {left, down, right, up}
 
 super + {_,shift + }c
 	bspc window -f {next,prev}
@@ -84,7 +87,7 @@ super + Return
 	xterm
 
 super + space
-	dmenu_run
+	dmenu_path | dmenu -b -nb '#34322e' -nf '#a3a6ab' -sb '#a3a6ab' -sf '#34322e'
 
 # make sxhkd reload its configuration files:
 super + Escape

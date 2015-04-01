@@ -16,6 +16,8 @@ alias lynx='lynx --accept-all-cookies'
 alias slurm='slurm -i eth0'
 alias disk='df -h | grep /dev/s'
 alias refreshbash='. ~/.bashrc'
+  #updates color scheme in xTerm & URxvt after updating .Xresources
+alias refreshxres='xrdb -merge ~/.Xresources' 
 
 #configs
 alias bspwmrc='pico ~/.config/bspwm/bspwmrc'
