@@ -87,7 +87,7 @@ super + Return
 	xterm
 
 super + space
-	dmenu_path | dmenu -b -nb '#34322e' -nf '#a3a6ab' -sb '#a3a6ab' -sf '#34322e'
+	dmenu_path | dmenu_run -b -nb '#34322e' -nf '#a3a6ab' -sb '#a3a6ab' -sf '#34322e'
 
 # make sxhkd reload its configuration files:
 super + Escape
