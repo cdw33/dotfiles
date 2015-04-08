@@ -17,4 +17,9 @@ bspc rule -a mplayer2 floating=on
 bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
 
+#xrandr -s 1366x768 &
+
 panel &
+
+feh --bg-fill /home/chris/images/wallpapers/IBM.jpg &
+xrdb -merge /home/chris/.Xresources
