@@ -7,6 +7,7 @@ alias ...='cd ../..'
 alias ....='cd ../../..'
 alias filesize='du -sh'
 alias untar='tar -zxvf'
+alias tree='tree -sh'
 
 #Intertubez
 alias lynx='lynx --accept-all-cookies'
