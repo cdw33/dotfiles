@@ -1,0 +1,7 @@
+#this is only the config file for feh
+#to set this as bg, add the following to .xinitrc:
+#   exec feh
+#     -or-
+#   eval 'cat ~/.fehbg'
+
+feh  --bg-fill '/home/chris/images/wallpapers/IBM.jpg' 
