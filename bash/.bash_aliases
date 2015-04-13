@@ -26,3 +26,7 @@ alias sxhkdrc='pico ~/.config/sxhkd/sxhkdrc'
 
 #administration
 alias please='sudo $(history -p !!)'
+
+#stow
+alias unstow='stow -D'
+alias restow='stow -R'
