@@ -12,6 +12,13 @@ alias tree='tree -sh'
 #Intertubez
 alias lynx='lynx --accept-all-cookies'
 #alias google='lynx --accept-all-cookies google.com'
+alias pingrand='ping $((RANDOM%(254)+1)).$((RANDOM%(254)+1)).$((RANDOM%(254)+1)).$((RANDOM%(254)+1))'
+
+
+
+
+
+
 
 #system
 alias slurm='slurm -i eth0'
