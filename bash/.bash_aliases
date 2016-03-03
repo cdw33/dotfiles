@@ -13,7 +13,7 @@ alias tree='tree -sh'
 alias lynx='lynx --accept-all-cookies'
 #alias google='lynx --accept-all-cookies google.com'
 alias pingrand='ping $((RANDOM%(254)+1)).$((RANDOM%(254)+1)).$((RANDOM%(254)+1)).$((RANDOM%(254)+1))'
-
+alias myip='curl -s checkip.dyndns.org | sed -e \'s/.*Current IP Address: //\' -e \'s/<.*$//\''
 
 
 
